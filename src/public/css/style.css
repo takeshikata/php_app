@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 36px;
+  margin: 0;
+}
+
+.bold{
+  font-weight: 550;
+}
+.white{
+  color: #ffffff;
+}
+.gray{
+  color: #888888;
+  margin: 15px 0 20px 0;
+}
+.wrap{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.header{
+  height: 100px;
+  color: #412d1c;
+}
+.nav{
+  height: 70px;
+  color: #ffffff;
+  background: #412d1c;
+}
+.contents{
+
+}
+.footer{
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  background: #888888;
+}

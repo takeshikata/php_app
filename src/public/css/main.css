@@ -1,0 +1,112 @@
+/* header */
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 100px;
+  margin: 0 auto;
+}
+.header-title{
+  line-height: 100px;
+}
+.header-title h1 a{
+  /* text-decoration: none;
+  color: #412d1c; */
+}
+.header-info{
+  width: 30%;
+  text-align: right;
+  padding: 22px 0 10px 0;
+}
+.header-info__telephone{
+  font-size: 30px;
+}
+.header-info__open{
+  font-size: 12px;
+}
+
+/* nav */
+.nav-wrap{
+  height: 70px;
+}
+.nav-tabs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 70%;
+  height: 70px;
+  margin: 0 auto;
+}
+.nav-tab{
+  width: 25%;
+  text-align: center;
+  border-left: groove #ffffff;
+}
+.border{
+  border-right: groove #ffffff;
+}
+/* .nav-tab > a{
+  text-decoration: none !important;
+  color: #ffffff !important;
+} */
+.nav-tab a p{
+  font-size: 10px;
+}
+
+/* main */
+.contents-wrap{
+  /* overflow-y: scroll; */
+  width: 70%;
+  margin: 0 auto;
+}
+.contents-info{
+  height: 400px;
+  text-align: center;
+  padding: 35px 0;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.contents-info__left{
+  width: 40%;
+  float: left;
+}
+.contents-info__left img{
+
+}
+.contents-info__logo img{
+  width: 60%;
+}
+.contents-info__search{
+
+}
+.keyword{
+  height: 25px;
+  width: 80%;
+}
+.contents-info__right{
+  width: 60%;
+  float: right;
+}
+
+.contents-recommend{
+  text-align: center;
+  margin: 0 auto;
+}
+.contents-recommend__houses{
+  margin-top: 20px;
+}
+.contents-recommend__house{
+  display: inline-block;
+  width: 20%;
+  min-height: 200px;
+}
+.ontents-recommend__house-image{
+
+}
+.contents-recommend__house-describe{
+
+}
