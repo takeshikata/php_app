@@ -47,7 +47,6 @@
         list-style: none;
       }
       .request-type > li{min-width: 100px;}
-      input{height: 25px;}
       #request_contact{height: auto;}
       .submit-form{
         height: 50px;
