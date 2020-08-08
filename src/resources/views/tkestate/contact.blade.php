@@ -176,12 +176,12 @@
                     <td>
                       <ul class="request-type">
                         <li>
-                          <input type="checkbox" name="request_contact[]" id="request_contact[]" value="1">
-                          <label for="request_contact[]">メール</label>
+                          <input type="checkbox" name="request_contact[]" id="request_contact[1]" value="1">
+                          <label for="request_contact[1]">メール</label>
                         </li>
                         <li>
-                          <input type="checkbox" name="request_contact[]" id="request_contact[]" value="2">
-                          <label for="request_contact[]">電話</label>
+                          <input type="checkbox" name="request_contact[]" id="request_contact[2]" value="2">
+                          <label for="request_contact[2]">電話</label>
                         </li>
                       </ul>
                     </td>
