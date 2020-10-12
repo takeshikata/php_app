@@ -43,11 +43,10 @@ $factory->define(Property::class, function(Faker $faker){
     $images = array();
     $properties = array();
     for ($i = 0; $i < 10; $i++) {
-      // get a random digit, but always a new one, to avoid duplicates
       $images []= $faker->imageUrl($width, $height, 'property');
       $properties []= $faker->name;
     };
-    
+
     return [
         'images' => $images,
         'properties' => $properties,
