@@ -52,4 +52,4 @@ http://54.95.213.76/tkestate
   - Github
   - Atom
   - テスト(PHPunit)
-  - JS
+  - JavaScript
