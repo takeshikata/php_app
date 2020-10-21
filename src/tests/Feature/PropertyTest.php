@@ -29,8 +29,9 @@ class PropertyTest extends TestCase
 
         $response = $this->get('/price');
         $response->assertStatus(200);
-        
+
         $response = $this->get('/search');
         $response->assertStatus(200);
+        
     }
 }
