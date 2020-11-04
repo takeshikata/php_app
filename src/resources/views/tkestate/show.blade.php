@@ -15,7 +15,7 @@ img.thumbnail:hover{
   opacity: 0.3;
 }
 </style>
-
+<!-- body -->
 @section('header')
   @component('components.header')
   @endcomponent
